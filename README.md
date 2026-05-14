@@ -2,8 +2,6 @@
 
 **Estudante de ADS · Futuro Dev Backend .NET**
 
-Construindo sistemas reais para aprender de verdade. Atualmente desenvolvendo um sistema de controle de estoque em C# inspirado em gaps que encontrei no trabalho — porque o melhor problema para resolver é um que você já viveu.
-
 ---
 
 ## Stack
