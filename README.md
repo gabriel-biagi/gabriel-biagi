@@ -1,6 +1,6 @@
 # Olá, sou Gabriel Biagi
 
-**Estudante de ADS · Futuro Dev Backend .NET**
+**Estudante de ADS**
 
 ---
 
