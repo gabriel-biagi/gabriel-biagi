@@ -11,7 +11,6 @@ Estudante de Análise e Desenvolvimento de Sistemas (ADS) na Unigran. Focused em
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#"/></code>
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" alt=".NET Core"/></code>
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/entityframework/entityframework-original.svg" alt="Entity Framework Core"/></code>
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git"/></code>
 
 ---
