@@ -17,7 +17,30 @@ Estudante de Análise e Desenvolvimento de Sistemas (ADS) na Unigran. Focused em
 
 ## Projetos em Destaque
 
-### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem.Api)
+### [ComandaAPI](https://github.com/gabriel-biagi/comandaAPI)
+Processador inteligente de comandas WhatsApp com integração de IA.
+
+**O que faz:**
+- Extração automatizada de dados de mensagens WhatsApp brutas
+- Processamento via Groq AI (LLaMA 3.3 70B) com prompt engineering
+- Interface HTML/CSS/JS estática para colagem de mensagens
+- Retorno estruturado de pedidos prontos para impressão térmica
+
+**Impacto:**
+- Eliminação de digitação manual de comandas
+- Agilidade expressiva em horários de pico
+- Padronização de dados para produção
+
+**Stack:**
+- .NET 8 | ASP.NET Core Web API
+- Groq Cloud API (LLaMA 3.3 70B)
+- HTML5 | CSS3 | JavaScript ES6+
+
+**Status:** Funcional em produção
+
+---
+
+### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem)
 Web API escalável para gestão de estoque, construída sobre Clean Architecture.
 
 **O que faz:**
@@ -26,12 +49,13 @@ Web API escalável para gestão de estoque, construída sobre Clean Architecture
 - Tratamento global de erros com middleware customizado
 - Operações assíncronas em todos os endpoints
 - Documentação automática com Swagger/OpenAPI
+- Mapeamento automático com AutoMapper (DTOs)
 
 **Stack:**
 - .NET 8 | ASP.NET Core Web API
 - Entity Framework Core + MySQL
+- AutoMapper 12.0.1
 - Arquitetura em camadas (Api → Application → Domain → Infrastructure)
-- Testes preparados para xUnit
 
 **Status:** Em desenvolvimento ativo
 
@@ -42,17 +66,27 @@ Aplicação console que demonstra o domínio de estoque com foco em OOP e arquit
 
 **Conceitos aplicados:**
 - Encapsulamento e validações de negócio
+- Herança com sealed classes
 - Enums tipadas
-- Construtores com validação
+- Persistência com JSON
 - Estrutura modular e reutilizável
 
 ---
 
+## Foco Atual
+
+- Aprofundando em padrões de arquitetura (.NET Clean Architecture)
+- Expandindo conhecimento em Entity Framework Core e otimizações de banco de dados
+- Implementando testes automatizados (xUnit, Moq)
+- Explorando integração com APIs externas (Groq, webhooks)
+
+---
 
 ## Entre em Contato
 
 <a href="https://www.linkedin.com/in/gabriel-biagi" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://github.com/gabriel-biagi" target="_blank"><img src="https://img.shields.io/badge/-GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 ---
 
-*Buscando oportunidades de junior backend .NET | Aberto a remote*
+*Desenvolvedor .NET Júnior | Buscando oportunidades de backend | Aberto a remote*
