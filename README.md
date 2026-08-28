@@ -40,7 +40,7 @@ Processador inteligente de comandas WhatsApp com integração de IA.
 
 ---
 
-### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem)
+### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem.Api)
 Web API escalável para gestão de estoque, construída sobre Clean Architecture.
 
 **O que faz:**
