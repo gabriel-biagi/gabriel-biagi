@@ -41,21 +41,25 @@ Processador inteligente de comandas WhatsApp com integração de IA.
 ---
 
 ### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem.Api)
-Web API escalável para gestão de estoque, construída sobre Clean Architecture.
+Web API para gestão de estoque, desenvolvida em **C#/.NET 8** com arquitetura em camadas inspirada em Clean Architecture.
 
 **O que faz:**
-- CRUD completo de produtos e itens de estoque
-- Movimentação de quantidade com validações de domínio
-- Tratamento global de erros com middleware customizado
-- Operações assíncronas em todos os endpoints
-- Documentação automática com Swagger/OpenAPI
-- Mapeamento automático com AutoMapper (DTOs)
+
+* CRUD de produtos e itens de estoque
+* Movimentação de estoque com validações de domínio
+* Autenticação e autorização com JWT e ASP.NET Identity
+* Tratamento global de exceções com middleware
+* Operações assíncronas
+* Documentação com Swagger/OpenAPI
+* DTOs com AutoMapper
 
 **Stack:**
-- .NET 8 | ASP.NET Core Web API
-- Entity Framework Core + MySQL
-- AutoMapper 12.0.1
-- Arquitetura em camadas (Api → Application → Domain → Infrastructure)
+
+* .NET 8 | ASP.NET Core Web API
+* Entity Framework Core + MySQL
+* ASP.NET Identity + JWT
+* AutoMapper 12.0.1
+* Arquitetura em camadas: `Api → Application → Domain → Infrastructure`
 
 **Status:** Em desenvolvimento ativo
 
