@@ -119,17 +119,6 @@ Projeto voltado à aplicação de fundamentos de programação e à construção
 
 ---
 
-## Em desenvolvimento
-
-Atualmente, estou aprofundando meus conhecimentos em:
-
-- Arquitetura em camadas e Clean Architecture.
-- Entity Framework Core, LINQ e otimização de consultas.
-- Testes automatizados com xUnit e Moq.
-- Segurança de APIs, autenticação e autorização.
-- Integração com APIs externas e webhooks.
-- Qualidade de código e princípios SOLID.
-
 ## GitHub Stats
 
 <div align="center">
