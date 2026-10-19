@@ -1,96 +1,161 @@
-# Gabriel Biagi
+ <div align="center">
 
-**Desenvolvedor .NET | C# | ASP.NET Core**
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=200&section=header&text=Gabriel%20Biagi&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Desenvolvedor%20Backend%20%7C%20C%23%20%7C%20.NET&descAlignY=58&descSize=18" />
 
-Estudante de Análise e Desenvolvimento de Sistemas (ADS) na Unigran. Focused em backend com .NET, Clean Architecture e boas práticas de engenharia de software.
+# Desenvolvedor Backend .NET
+
+**C# • ASP.NET Core • .NET • REST APIs • Entity Framework Core**
+
+Estudante de Análise e Desenvolvimento de Sistemas na Unigran, focado no desenvolvimento backend com .NET, arquitetura de software e boas práticas de engenharia.
+
+[![GitHub](https://img.shields.io/badge/GitHub-gabriel--biagi-181717?style=for-the-badge&logo=github)](https://github.com/gabriel-biagi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gabriel-biagi)
+
+</div>
 
 ---
+
+## Sobre mim
+
+Sou estudante de Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento backend utilizando C# e .NET. Desenvolvo projetos que envolvem APIs REST, persistência de dados, autenticação e arquitetura em camadas. Tenho direcionado meus estudos para boas práticas de desenvolvimento e princípios de arquitetura de software.
 
 ## Tech Stack
 
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#"/></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" alt=".NET Core"/></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git"/></code>
+<div align="center">
+
+### Backend & Frameworks
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet" alt="C# e .NET"/>
+
+### Banco de dados & Ferramentas
+
+<img src="https://skillicons.dev/icons?i=mysql,git,github,visualstudio,postman,rider" alt="MySQL, Git, GitHub, Visual Studio, Postman e Rider"/>
+
+### Frontend & Integrações
+
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS e JavaScript"/>
+
+</div>
+
+**Também trabalho com:** Entity Framework Core, ASP.NET Identity, JWT, AutoMapper, Swagger/OpenAPI, APIs externas e integração com modelos de IA.
 
 ---
 
-## Projetos em Destaque
+## Projetos em destaque
 
-### [ComandaAPI](https://github.com/gabriel-biagi/comandaAPI)
-Processador inteligente de comandas WhatsApp com integração de IA.
+### 01. ComandaAPI
 
-**O que faz:**
-- Extração automatizada de dados de mensagens WhatsApp brutas
-- Processamento via Groq AI (LLaMA 3.3 70B) com prompt engineering
-- Interface HTML/CSS/JS estática para colagem de mensagens
-- Retorno estruturado de pedidos prontos para impressão térmica
+[![Repositório](https://img.shields.io/badge/Ver%20repositório-ComandaAPI-2563EB?style=flat-square&logo=github)](https://github.com/gabriel-biagi/comandaAPI)
 
-**Impacto:**
-- Eliminação de digitação manual de comandas
-- Agilidade expressiva em horários de pico
-- Padronização de dados para produção
+**Automação inteligente de comandas a partir de mensagens do WhatsApp.**
 
-**Stack:**
-- .NET 8 | ASP.NET Core Web API
-- Groq Cloud API (LLaMA 3.3 70B)
-- HTML5 | CSS3 | JavaScript ES6+
+A ComandaAPI processa mensagens de pedidos em texto bruto e utiliza inteligência artificial para transformar essas informações em dados estruturados, facilitando a preparação e a impressão de comandas.
 
-**Status:** Funcional em produção
+**Principais funcionalidades**
 
----
+- Extração automatizada de informações de pedidos.
+- Processamento com Groq Cloud API e LLaMA 3.3 70B.
+- Integração com uma interface estática em HTML, CSS e JavaScript.
+- Retorno estruturado de pedidos para impressão térmica.
+- Redução da necessidade de transcrição manual de pedidos.
 
-### [InventorySystem.Api](https://github.com/gabriel-biagi/InventorySystem.Api)
-Web API para gestão de estoque, desenvolvida em **C#/.NET 8** com arquitetura em camadas inspirada em Clean Architecture.
+**Tecnologias**
 
-**O que faz:**
+`C#` ` .NET 8` `ASP.NET Core Web API` `Groq API` `LLaMA 3.3 70B` `HTML` `CSS` `JavaScript`
 
-* CRUD de produtos e itens de estoque
-* Movimentação de estoque com validações de domínio
-* Autenticação e autorização com JWT e ASP.NET Identity
-* Tratamento global de exceções com middleware
-* Operações assíncronas
-* Documentação com Swagger/OpenAPI
-* DTOs com AutoMapper
-
-**Stack:**
-
-* .NET 8 | ASP.NET Core Web API
-* Entity Framework Core + MySQL
-* ASP.NET Identity + JWT
-* AutoMapper 12.0.1
-* Arquitetura em camadas: `Api → Application → Domain → Infrastructure`
-
-**Status:** Em desenvolvimento ativo
+**Status:** Funcional em produção, conforme descrição do projeto.
 
 ---
 
-### [InventorySystemConsole](https://github.com/gabriel-biagi/InventorySystemConsole)
-Aplicação console que demonstra o domínio de estoque com foco em OOP e arquitetura limpa.
+### 02. InventorySystem.Api
 
-**Conceitos aplicados:**
-- Encapsulamento e validações de negócio
-- Herança com sealed classes
-- Enums tipadas
-- Persistência com JSON
-- Estrutura modular e reutilizável
+[![Repositório](https://img.shields.io/badge/Ver%20repositório-InventorySystem.Api-2563EB?style=flat-square&logo=github)](https://github.com/gabriel-biagi/InventorySystem.Api)
+
+**API REST para gerenciamento de estoque com autenticação e separação de responsabilidades.**
+
+Projeto desenvolvido para aplicar conceitos de arquitetura em camadas, regras de negócio, persistência de dados e segurança em aplicações backend.
+
+**Principais funcionalidades**
+
+- CRUD de produtos e itens de estoque.
+- Movimentações de estoque com validações de domínio.
+- Autenticação e autorização com ASP.NET Identity e JWT.
+- Tratamento global de exceções por middleware.
+- Operações assíncronas.
+- Documentação de endpoints com Swagger/OpenAPI.
+- Utilização de DTOs e AutoMapper.
+
+**Tecnologias**
+
+`.NET 8` `ASP.NET Core Web API` `Entity Framework Core` `MySQL` `ASP.NET Identity` `JWT` `AutoMapper`
+
+**Arquitetura**
+
+`API → Application → Domain → Infrastructure`
+
+**Status:** Em desenvolvimento ativo.
 
 ---
 
-## Foco Atual
+### 03. InventorySystemConsole
 
-- Aprofundando em padrões de arquitetura (.NET Clean Architecture)
-- Expandindo conhecimento em Entity Framework Core e otimizações de banco de dados
-- Implementando testes automatizados (xUnit, Moq)
-- Explorando integração com APIs externas (Groq, webhooks)
+[![Repositório](https://img.shields.io/badge/Ver%20repositório-InventorySystemConsole-2563EB?style=flat-square&logo=github)](https://github.com/gabriel-biagi/InventorySystemConsole)
+
+**Aplicação console para gerenciamento de estoque, com foco em orientação a objetos e organização do domínio.**
+
+Projeto voltado à aplicação de fundamentos de programação e à construção de componentes reutilizáveis.
+
+**Conceitos aplicados**
+
+- Encapsulamento e validações de negócio.
+- Herança e utilização de classes `sealed`.
+- Enums tipadas.
+- Persistência de dados em JSON.
+- Organização modular e reutilização de código.
+
+**Tecnologias**
+
+`C#` `.NET` `OOP` `JSON`
 
 ---
 
-## Entre em Contato
+## Em desenvolvimento
 
-<a href="https://www.linkedin.com/in/gabriel-biagi" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://github.com/gabriel-biagi" target="_blank"><img src="https://img.shields.io/badge/-GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+Atualmente, estou aprofundando meus conhecimentos em:
+
+- Arquitetura em camadas e Clean Architecture.
+- Entity Framework Core, LINQ e otimização de consultas.
+- Testes automatizados com xUnit e Moq.
+- Segurança de APIs, autenticação e autorização.
+- Integração com APIs externas e webhooks.
+- Qualidade de código e princípios SOLID.
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=gabriel-biagi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabriel-biagi&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais utilizadas"/>
+
+</div>
 
 ---
 
-*Desenvolvedor .NET Júnior | Buscando oportunidades de backend | Aberto a remote*
+## Contato
+
+Estou aberto a oportunidades de estágio e posições júnior na área de desenvolvimento backend com .NET.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Biagi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-biagi)
+
+[![GitHub](https://img.shields.io/badge/GitHub-gabriel--biagi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabriel-biagi)
+
+</div>
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:1D4ED8,100:0F172A&height=100&section=footer" />
+
+</div>
