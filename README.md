@@ -47,23 +47,28 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco no desenvolvim
 
 [![Repositório](https://img.shields.io/badge/Ver%20repositório-ComandaAPI-2563EB?style=flat-square&logo=github)](https://github.com/gabriel-biagi/comandaAPI)
 
-**Automação inteligente de comandas a partir de mensagens do WhatsApp.**
+**API para automação de comandas a partir de pedidos recebidos em texto, com IA e impressão térmica.**
 
-A ComandaAPI processa mensagens de pedidos em texto bruto e utiliza inteligência artificial para transformar essas informações em dados estruturados, facilitando a preparação e a impressão de comandas.
+Desenvolvida a partir de uma necessidade real de uma açaiteria, a aplicação transforma mensagens desestruturadas em pedidos organizados, permitindo revisão e edição antes da impressão.
 
 **Principais funcionalidades**
 
-- Extração automatizada de informações de pedidos.
-- Processamento com Groq Cloud API e LLaMA 3.3 70B.
-- Integração com uma interface estática em HTML, CSS e JavaScript.
-- Retorno estruturado de pedidos para impressão térmica.
-- Redução da necessidade de transcrição manual de pedidos.
+- Extração estruturada de informações de pedidos utilizando IA via Groq Cloud API.
+- Integração com o modelo `openai/gpt-oss-120b`.
+- Interface web responsiva em HTML, CSS e JavaScript.
+- Revisão e edição das comandas antes da impressão.
+- Geração de comandas no formato ESC/POS para impressoras térmicas de 80 mm.
+- Integração com RawBT para impressão via Bluetooth.
+- Autenticação com ASP.NET Core Identity, JWT e Refresh Tokens.
+- Renovação automática e rotação de Refresh Tokens armazenados em cookies HttpOnly.
+- Persistência com SQLite e Entity Framework Core.
+- Middleware global para tratamento de exceções e logging de falhas em serviços externos.
 
 **Tecnologias**
 
-`C#` ` .NET 8` `ASP.NET Core Web API` `Groq API` `LLaMA 3.3 70B` `HTML` `CSS` `JavaScript`
+`C#` `.NET 8` `ASP.NET Core Web API` `Entity Framework Core` `SQLite` `ASP.NET Core Identity` `JWT` `Groq API` `HTML` `CSS` `JavaScript` `ESC/POS` `RawBT`
 
-**Status:** Funcional em produção, conforme descrição do projeto.
+**Status:** MVP funcional, validado em ambiente real, incluindo impressão térmica.
 
 ---
 
@@ -71,27 +76,35 @@ A ComandaAPI processa mensagens de pedidos em texto bruto e utiliza inteligênci
 
 [![Repositório](https://img.shields.io/badge/Ver%20repositório-InventorySystem.Api-2563EB?style=flat-square&logo=github)](https://github.com/gabriel-biagi/InventorySystem.Api)
 
-**API REST para gerenciamento de estoque com autenticação e separação de responsabilidades.**
+**API REST para gerenciamento de estoque, com regras de domínio, autenticação e arquitetura em camadas.**
 
-Projeto desenvolvido para aplicar conceitos de arquitetura em camadas, regras de negócio, persistência de dados e segurança em aplicações backend.
+Projeto desenvolvido para aplicar conceitos de engenharia de software na construção de uma aplicação backend, com separação de responsabilidades, persistência relacional, controle de acesso e testes automatizados.
 
 **Principais funcionalidades**
 
 - CRUD de produtos e itens de estoque.
-- Movimentações de estoque com validações de domínio.
-- Autenticação e autorização com ASP.NET Identity e JWT.
-- Tratamento global de exceções por middleware.
-- Operações assíncronas.
-- Documentação de endpoints com Swagger/OpenAPI.
-- Utilização de DTOs e AutoMapper.
+- Controle de entrada e saída de quantidades, com validações de domínio.
+- Regras de negócio para disponibilidade, unidades de medida e exclusão de produtos.
+- Persistência com Entity Framework Core e MySQL.
+- Repository Pattern e DTOs com AutoMapper.
+- Autenticação com ASP.NET Core Identity e JWT.
+- Refresh Tokens com renovação e revogação de sessão.
+- Autorização baseada em Roles e Policies.
+- Middleware global para tratamento de exceções.
+- Logging de requisições e documentação com Swagger/OpenAPI.
+- Testes unitários com xUnit, Moq e FluentAssertions.
 
 **Tecnologias**
 
-`.NET 8` `ASP.NET Core Web API` `Entity Framework Core` `MySQL` `ASP.NET Identity` `JWT` `AutoMapper`
+`C#` `.NET 8` `ASP.NET Core Web API` `Entity Framework Core` `MySQL` `ASP.NET Core Identity` `JWT` `AutoMapper` `xUnit` `Moq` `FluentAssertions` `Swagger/OpenAPI`
 
 **Arquitetura**
 
-`API → Application → Domain → Infrastructure`
+`API → Application → Domain ← Infrastructure`
+
+Arquitetura em camadas inspirada em Clean Architecture, com responsabilidades separadas entre API, aplicação, domínio e infraestrutura.
+
+**Testes:** 20 casos de teste unitário distribuídos entre o domínio e os serviços da aplicação.
 
 **Status:** Em desenvolvimento ativo.
 
