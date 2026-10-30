@@ -136,7 +136,7 @@ Projeto voltado à aplicação de fundamentos de programação e à construção
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gabriel-biagi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=gabriel-biagi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub"/>
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabriel-biagi&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais utilizadas"/>
 
