@@ -47,7 +47,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, com foco no desenvolvim
 
 <img height="165" src="https://github-stats-extended.vercel.app/api?username=gabriel-biagi&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabriel-biagi&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais utilizadas"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=gabriel-biagi&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais utilizadas"/>
 
 </div>
 
